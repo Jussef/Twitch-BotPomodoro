@@ -1,0 +1,26 @@
+{
+  "name": "Twitch-BotPomodoro",
+  "version": "1.0.0",
+  "description": "Este sera un bot para usar como tecnica pomodoro en el chat de Twitch",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jussef/Twitch-BotPomodoro.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jussef/Twitch-BotPomodoro/issues"
+  },
+  "homepage": "https://github.com/Jussef/Twitch-BotPomodoro#readme",
+  "dependencies": {
+    "nodemon": "^2.0.12",
+    "tmi.js": "^1.8.3"
+  }
+}
